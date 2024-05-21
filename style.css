@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(43, 50, 6);
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(230, 71, 236) , rgb(0, 179, 255));
+}
+
+
+
+.aside-list li{
+    list-style-type: none !important;
+}
+
+@media (max-width: 576px) {
+
+    container{
+        flex-basis: 100%;
+        margin: auto;
+    }
+    
+    header{
+        text-align: center;
+    }
+
+
+    
+}
